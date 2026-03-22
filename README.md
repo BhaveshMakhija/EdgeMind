@@ -1,12 +1,12 @@
-# EdgeMind v3.1: Professional Offline LLM Hub (Performance Optimized)
+# EdgeMind: Professional Offline LLM Hub (Performance Optimized)
 
 **EdgeMind** is a production-level, full-stack application for localized LLM evaluation. It is specifically engineered to run complex neural weights on **8GB RAM, CPU-only laptops** without system degradation.
 
 ---
 
-## 🏛️ v3.1 Refined Architecture
+## 🏛️Refined Architecture
 
-This version introduces a high-fidelity monitoring subsystem that tracks hardware overhead alongside neural metrics.
+This introduces a high-fidelity monitoring subsystem that tracks hardware overhead alongside neural metrics.
 
 - **Neural Stability Layer**: Prevents memory exhaustion by restricting **Mistral 7B** to offline-only benchmarking while allowing **Phi-2** and **TinyLlama** for live playground interaction.
 - **Hardware Telemetry**: Real-time polling of CPU utilization (%) and Memory Payload (MB) via the `psutil` integration in Python.
@@ -58,11 +58,3 @@ cd frontend && npm start
 ```
 
 ---
-
-## 💼 Interview Impact
-- **Problem Solving**: Addressed "The OOM Problem" for small-memory laptops via intelligent model restriction logic.
-- **Full-Stack Proficiency**: Orchestrated React lifecycle hooks with FastAPI context managers and Ollama's local server.
-- **UI/UX Excellence**: Developed a deep-black, glassmorphic HUD that provides real-time feedback during heavy inference cycles.
-
----
-*Optimized for Resume Portfolios & Technical Demos.*
